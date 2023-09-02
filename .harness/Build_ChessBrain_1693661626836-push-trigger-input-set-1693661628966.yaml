@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ChessBrain_1693661626836-push-trigger-input-set
+  identifier: Build_ChessBrain_1693661626836pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ChessBrain_1693661626836
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
